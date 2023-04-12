@@ -1,0 +1,78 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 58%;
+  left: 43%;
+}
+
+.rating-container {
+  background-color: hsl(300, 24%, 96%);
+  width: 194%;
+  height: 50px;
+  border-radius: 8px;
+  margin: 8px;
+}
+
+.first-container {
+  position: relative;
+  left: 30%;
+}
+
+.second-container {
+  position: relative;
+  left: 60%;
+}
+
+.third-container {
+  position: relative;
+  left: 90%;
+}
+
+.para-container {
+  position: relative;
+  top: -15%;
+  left: 40%;
+  color: hsl(300, 43%, 22%);
+  font-weight: 550;
+}
+
+.star-img {
+  width: 15px;
+  height: 15px;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.img1 {
+  position: relative;
+  right: 150px;
+  top: 17px;
+}
+.img2 {
+  position: relative;
+  right: 142px;
+  top: 17px;
+}
+
+.img3 {
+  position: relative;
+  right: 134px;
+  top: 17px;
+}
+
+.img4 {
+  position: relative;
+  right: 126px;
+  top: 17px;
+}
+
+.img5 {
+  position: relative;
+  right: 118px;
+  top: 17px;
+}

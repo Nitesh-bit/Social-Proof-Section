@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "./App.css";
+import Header from "./components/Header";
+import Content from "./components/Content";
+import Rating from "./components/Rating";
+import Review from "./components/Review";
 
 function App() {
+  const ratingContent = ["Reviews", "Report Guru", "BestTech"];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Content />
+      {/* {ratingContent.map((v) => {
+        return <Rating rating={v} />;
+      })} */}
+      <Rating rating={ratingContent} />
+      <Review />
+    </>
   );
 }
 

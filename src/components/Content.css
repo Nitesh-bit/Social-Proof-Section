@@ -1,0 +1,13 @@
+.para-container {
+  position: relative;
+  top: 14%;
+}
+
+p {
+  line-height: 0.2;
+  position: relative;
+  bottom: 230px;
+  right: 61%;
+  color: hsl(303, 10%, 53%);
+  font-weight: 500;
+}

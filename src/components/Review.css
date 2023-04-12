@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.inner {
+  width: 23%;
+  height: 214px;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+}
+
+.f-container {
+  position: absolute;
+  left: 172px;
+  top: 52%;
+}
+
+.s-container {
+  position: absolute;
+  left: 36%;
+  top: 55%;
+}
+
+.t-container {
+  position: absolute;
+  right: 248px;
+  top: 58%;
+}
+
+.customer-name {
+  color: hsl(300, 24%, 96%);
+  position: relative;
+  bottom: 8%;
+  left: 25%;
+  font-weight: bold;
+}
+
+.customer-title {
+  color: hsl(333, 55%, 58%);
+  position: relative;
+  bottom: 8%;
+  left: 25%;
+}
+
+.customer-message {
+  color: hsl(300, 24%, 96%);
+  position: relative;
+  top: -3%;
+  left: 8%;
+  width: 279px;
+  height: 329px;
+  line-height: 1.2;
+}
+
+.profile {
+  position: relative;
+  left: 8%;
+  top: 18%;
+}
+
+.prof-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
